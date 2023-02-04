@@ -16,7 +16,6 @@ public class Main {
            System.out.println(lista);
         }
     }
-
     public static List<String> loadFileContent(String filePath) {
         try {
             List<String> result = Files.readAllLines(Path.of(filePath));
